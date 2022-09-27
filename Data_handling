@@ -1,0 +1,5 @@
+#Loginto an interactive node
+ssh kar131@petrichor-i1.hpc.csiro.au
+
+sinteractive -p io -t 15:00:00 -n 1 -c 6 -m 24G
+
