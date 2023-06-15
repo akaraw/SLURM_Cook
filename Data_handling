@@ -5,3 +5,7 @@ sinteractive -p io -t 15:00:00 -n 1 -c 6 -m 24G -A OD-230743
 
 #Not for data handling:
 sinteractive -t 15:00:00 -n 1 -c 6 -m 24G -A OD-230743
+
+#rsync command
+https://superuser.com/questions/547282/which-is-the-rsync-command-to-smartly-merge-two-folders
+
