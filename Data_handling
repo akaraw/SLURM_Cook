@@ -11,4 +11,6 @@ sinteractive -t 15:00:00 -n 1 -c 6 -m 24G -A OD-230743
 #g.g.,
 #rsync -abviuzP SNI_flye_ASM_COV_30X/ /datasets/work/hb-xford-nanopore-p2-solo/work/8.Ibinomics/SNI_ONT/SNI_flye_ASM_COV_30X/
 
+#rsync -avUU --rsync-path /apps/rsync/3.2.7/bin/rsync bracewell-login:/scratch1/$USER/folder /scratch3/$USER/
+
 
